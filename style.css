@@ -37,18 +37,31 @@ body{
     height: 20vh;
     background-image: url(../img/Soundcloud\ Banner.jpg);
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #facebook img{
-height: 10vh;
+height: 8vh;
 }
 
-#instagram img{
-height: 10vh;
+#facebook img:hover {
+    height: 10vh;
+    }
 
+#instagram img{
+height: 8vh;
+
+}
+
+#instagram img:hover {
+    height: 10vh;
 }
 
 #youtube img{
-height: 10vh;
+height: 8vh;
 
+}
+
+#youtube img:hover {
+    height: 10vh;
 }
