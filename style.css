@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+#background{
+    background-image: url(../img/IMG_9851.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+#background h1{
+    font-size: 50px;
+    opacity: 1;
+}
+
+#background h3{
+    font-size: 20px;
+}
+
+#social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    min-height: 200px;
+    text-align: end;
+    background-image: url(../img/Soundcloud\ Banner.jpg);
+    
+}
+
+#facebook{
+    background-image: url(../img/Icons/iconfinder_5365678_fb_facebook_facebook\ logo_icon_512px.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#instagram{
+    background-image: url(../img/Icons/iconfinder_5296765_camera_instagram_instagram\ logo_icon_512px.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#youtube{
+    background-image: url(../img/Icons/iconfinder_5296521_play_video_vlog_youtube_youtube\ logo_icon_512px.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
